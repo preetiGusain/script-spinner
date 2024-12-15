@@ -1,0 +1,18 @@
+{
+  "name": "ScriptSpinner",
+  "version": "0.0.0",
+  "main": "launcher.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon launcher.js",
+    "dev": "nodemon launcher.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module" 
+}
